@@ -14,7 +14,7 @@
   "keywords": ["auth0", "extension", "account-link"],
   "secrets": {
     "CUSTOM_CSS": {
-      "description": "adadadadadad.",
+      "description": "teste.",
       "required": false,
       "example": "https://my.cdn.com/my-css.css"
     }
