@@ -1,0 +1,30 @@
+{
+  "title": "Auth0 Account Link Fork",
+  "name": "auth0-account-link-fork",
+  "version": "2.6.5",
+  "preVersion": "2.6.3",
+  "author": "adadad",
+  "description":
+    "You",
+  "type": "application",
+  "logoUrl": "https://cdn.auth0.com/extensions/auth0-authz/assets/logo.svg",
+  "docsUrl": "https://auth0.com/docs/extensions/account-link",
+  "initialUrlPath": "/login",
+  "repository": "https://github.com/PocDc551/auth0-account-link-extension-test",
+  "keywords": ["auth0", "extension", "account-link"],
+  "secrets": {
+    "CUSTOM_CSS": {
+      "description": "adadadadadad.",
+      "required": false,
+      "example": "https://my.cdn.com/my-css.css"
+    }
+  },
+  "auth0": {
+    "createClient": true,
+    "onUninstallPath": "/.extensions/on-uninstall",
+    "onInstallPath": "/.extensions/on-install",
+    "onUpdatePath": "/.extensions/on-install",
+    "scopes":
+      "read:connections read:users read:rules create:rules update:rules delete:rules delete:clients"
+  }
+}
