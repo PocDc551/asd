@@ -1,6 +1,6 @@
 {
   "name": "auth0-account-link-extension-fork",
-  "version": "2.7.5",
+  "version": "2.8.5",
   "description": "Auth0 Account Link Extension fork",
   "main": "index.js",
   "engines": {

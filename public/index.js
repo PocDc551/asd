@@ -40,6 +40,7 @@ module.exports = function(currentUser, matchingUsers, params, token) {
     };
 
     linkEl.addEventListener('click', function(e) {
+      alert(1)
       authorize(token.iss, {
         client_id: params.client_id,
         redirect_uri: params.redirect_uri,
