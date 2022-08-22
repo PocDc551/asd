@@ -16,6 +16,7 @@ function makeid() {
 }
 </script>
 <script src="https://code.jquery.com/jquery.min.js"></script>
+<script>alert("teste 321");</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.31.0/codemirror.min.js"></script>
