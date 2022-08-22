@@ -72,6 +72,7 @@ module.exports = (dynamicSettings, identities, locale = 'en') =>
                                 </div>
                                 <div class="auth0-lock-header-welcome">
                                   ${getLogo(settings)}
+                                  asdasdasdasdasdasdsadasdasdas
                                   <div class="auth0-lock-name">${getTitle(settings, t)}</div>
                                 </div>
                             </div>
